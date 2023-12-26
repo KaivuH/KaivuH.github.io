@@ -11,7 +11,7 @@ redirect_from:
 Hi! I'm a final year undergraduate in courses 18 and 6-4 (Mathematics and AI) at MIT. I'll be a masters student in the EECS department at MIT next year. I'm interested in building safer, more robust AI systems.
 
 My Research
-======
+------
 
 I’m interested in characterizing how ML systems behave, particularly in ‘edge cases’, such as on optimized or out-of-distribution inputs. I think this kind of understanding is particularly important for ensuring that models are safe and aligned. 
 
