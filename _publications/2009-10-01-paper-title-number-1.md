@@ -2,7 +2,7 @@
 title: "Paper Title Number 1"
 collection: publications
 permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
+excerpt: 'We introduce Search for Natural Adversarial Features Using Embeddings (SNAFUE) which offers a fully automated method for finding copy/paste attacks'
 date: 2022-12-09
 venue: 'Neurip ML Safety Workshop'
 paperurl: 'https://arxiv.org/pdf/2211.10024.pdf'
