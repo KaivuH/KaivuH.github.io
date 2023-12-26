@@ -1,5 +1,5 @@
 ---
-title: "Paper Title Number 1"
+title: "Diagnostics for Deep Neural Networks with Automated Copy/Paste Attacks"
 collection: publications
 permalink: /publication/2009-10-01-paper-title-number-1
 excerpt: 'We introduce Search for Natural Adversarial Features Using Embeddings (SNAFUE) which offers a fully automated method for finding copy/paste attacks'
