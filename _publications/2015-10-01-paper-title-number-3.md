@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2015-10-01-paper-title-number-3
 excerpt: 'We use mechanistic interpretability tools to try to understand how LLMs reconcile conflicting objectives.'
 date: 2023-12-16
-venue: 'NeurIPS 2023 ATTRIB and SoLaR Workshops'
+venue: 'NeurIPS ATTRIB and SoLaR Workshops'
 paperurl: 'https://arxiv.org/abs/2312.08793'
 ---
 ### Abstract

@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2010-10-01-paper-title-number-2
 excerpt: 'We benchmark feature synthesis tools on their ability to discover vulnerabilities in deep neural networks'
 date: 2023-12-10
-venue: 'NeurIPS 2023'
+venue: 'NeurIPS'
 paperurl: 'https://arxiv.org/abs/2302.10894'
 ---
 
