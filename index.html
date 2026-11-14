@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>kaivu.py</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="window">
+    <div class="titlebar">
+      <div class="titlebar-title">kaivu — ~/projects/self</div>
+      <button class="theme-toggle" onclick="toggleTheme()">◐ theme</button>
+    </div>
+
+    <div class="main-container">
+      <div class="sidebar">
+        <div class="sidebar-header">
+          <span>Explorer</span>
+        </div>
+        <div class="file-tree" id="fileTree"></div>
+      </div>
+
+      <div class="editor-container">
+        <div class="tabs" id="tabsContainer">
+          <!-- Tabs are dynamically created -->
+        </div>
+
+        <div class="editor">
+          <div class="line-numbers" id="lineNumbers"></div>
+          <div class="code" id="codeContainer">
+            <!-- Code content is dynamically created -->
+          </div>
+        </div>
+
+        <div class="terminal-resize" id="terminalResize"></div>
+        <div class="statusbar" onclick="toggleTerminal()">
+          <span>▸ Terminal</span>
+          <span id="statusFileType">Python · UTF-8</span>
+        </div>
+
+        <div class="terminal" id="terminal">
+          <div class="terminal-body">
+            <div class="terminal-output" id="terminalOutput">
+              <div class="success">Welcome. Type 'help' for commands.</div>
+            </div>
+            <div class="terminal-input-line">
+              <span class="terminal-prompt">~$</span>
+              <input type="text" class="terminal-input" id="terminalInput" placeholder="type a command...">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
